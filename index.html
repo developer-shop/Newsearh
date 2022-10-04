@@ -1,81 +1,86 @@
 <!DOCTYPE html>
-<head><title>Console</title></head>
-<style> 
-body{
-background: rgb(207,207,196);
+<head><title>developer</title>
+
+<style>
+*{padding: 0;
+margin: 0;
+
 }
-main{
-margin: 10px auto;
-}
-.section1{
-background-color: rgba(255,255,255,0.2);
-padding: 0 10px 10px 10px;
-}
-.enviar{
-text-align: center;
-}
-.boton{
-border: none;
-width: 95%;
-padding: 5px;
-}
-.boton1{
-width: 90%;
-padding: 15px;
-}
-.boton2{
-border: none;
-width: 100%;
-color: white;
-font-size: 20px;
-background: #008000;
-padding: 10px;
-border-radius: 5px;
-}
+
+body{width:100%; height: 100%; background: #ffffff;}
+
+.container{ 
+height: 150px; width:100%;}
+
+#section1{
+width:44%; height: 150px; float: right; }
+#section1 img{border: 1px solid black; border-radius: 10px; padding: 5px; margin: 10px; }
+
+#section2{
+width:55%; height: 100px;}
+#titulo{ padding: 15px; margin: 10px; text-align: center;}
+
+#section3{
+width:55%; height: 49px; display: flex;}
+
+#section4{ width:50%; height: 49px; margin: 10px; text-align: center;}
+#linea{ height: 49px; border:  1px solid black;}
+#section5{width:50%; height: 49px; float: right; margin: 10px; text-align: center;}
+
+
+
+.nav{ width: 90%; height: 40px; margin: 10px; 10px; text-align: center;}
+.nav a{display: block; width: 80px; height: 18px; padding: 5px; background: #008000; border-radius: 10px; color: #ffffff;  text-decoration: none; float: right;}
+
+
+.main{   width:100%;  max-height: 220px;  display: flex; overflow-x: auto;}
+#section6 img{ border: 1px solid black; border-radius: 10px; height: 130px; width: 200px;  display: flex;}
+#section6{ margin: 5px; border-radius: 10px;  display: flex;}
+
+.footer{ width:90%; height: 100%; margin: 10px; }
+p{padding: 10px; }
 </style>
+</head>
 <body>
-<main>
-<section class="section1">
-<form action="https://formsubmit.co/developershop412@gmail.com"
-  method="POST"
-  enctype="multipart/form-data">
-     
-     <div class="enviar">
-     <h2>Llenar Formulario</h2>
-     </div>
-    
-      
-     <label for="html"><span style="color: red";>*</span> Nombre de Aplicación</label><br>
-     <input type="text" class="boton" name="Nombre de Aplicación" required><br>
-
-     <label for="html"><span style="color: red";>*</span> Nombre Desarrollador</label><br>
-     <input type="text" class="boton" name="Nombre del Desarrollador" required><br>
-
-     <label for="html"><span style="color: red";>*</span> Correo Electrónico</label><br>
-     <input type="email" class="boton" name="Correo" required><br>
-
-     <label for="html"><span style="color: red";>*</span> Link de Descarga </label><br>
-     <input type="text" class="boton" name="Link de descarga" required><br><br>
-      
-     <label for="html"><span style="color: red";>*</span> Descripción</label><br>
-     <textarea name="descripción" class="boton1" cols"20" rows"10" required></textarea><br>
-
-     <label for="html">Icono de app</label>
-     <pre><span style="color: red";>* </span><input type="file" name="Icono" required> 
-     </pre>
-
-     <label for="html">Captura de Pantalla Min. 4 Max. 6</label>
-     <pre><span style="color: red";>* </span><input type="file" name="c1" required></pre>
-     <pre><span style="color: red";>* </span><input type="file" name="c2" required></pre>
-     <pre><span style="color: red";>* </span><input type="file" name="c3" required></pre>
-     <pre><span style="color: red";>* </span><input type="file" name="c4" required></pre>
-     <pre><span style="color: red";>  </span><input type="file" name="c5"></pre>
-     <pre><span style="color: red";>  </span><input type="file" name="c6"></pre> 
-     <br>
-     <button type="submit"class="boton2" >Enviar</button>
-        
-</form>
+<div class="container">
+<section id="section1"><img src="1.webp" width="120"  height="120">
 </section>
-</main>
+
+<section id="section2"><center><h2 id="titulo">Cambio de cara Cambio género</h2></center>
+</section>
+
+<section id="section3">
+<div id="section4">Versión<br>1.1(2)
+</div>
+<div id="linea"></div>
+<div id="section5">Tamaño<br>9,18MB
+</div>
+</section>
+</div>
+
+<div class="nav"> 
+<a href="Cambio de cara Cambio género_1.1_developer-shop.apk" download="Cambio de cara Cambio género_1.1_developer-shop" ><center>Descargar</center></a>
+</div>
+
+<div class="main">
+
+<section id="section6">
+<img src="2.webp" >
+</section>
+<section id="section6">
+<img src="3.webp">
+</section>
+<section id="section6">
+<img src="4.webp"  >
+</section>
+
+
+</div>
+
+<div class="footer">
+<p>
+<h2>  Descripción:</h2><br><p>Cambiador de cara de intercambio de género le permite cambiar su género con solo.</p>
+
+</div>
 </body>
 </html>
